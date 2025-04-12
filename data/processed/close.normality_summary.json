@@ -1,0 +1,53 @@
+{
+  "descriptive_stats": {
+    "count": 82519.0,
+    "mean": 23670.588053,
+    "median": 11394.68,
+    "variance": 613418535.446719,
+    "std_dev": 24767.287608,
+    "min": 243.6,
+    "max": 108312.35,
+    "skewness": 1.241882,
+    "kurtosis": 0.846352,
+    "iqr": 33237.44
+  },
+  "tests": {
+    "KS_Lilliefors": {
+      "statistic": 0.19716506126999633,
+      "p_value": 0.0009999999999998899
+    },
+    "Shapiro_Wilk": {
+      "statistic": 0.8404440093210386,
+      "p_value": 2.1357486546612153e-57
+    },
+    "Anderson_Darling": {
+      "statistic": 4398.387502984624,
+      "critical_values": [
+        0.576,
+        0.656,
+        0.787,
+        0.918,
+        1.092
+      ],
+      "sig_levels": [
+        0.15,
+        0.1,
+        0.05,
+        0.025,
+        0.01
+      ]
+    },
+    "DAgostino_K2": {
+      "statistic": 14603.776419126283,
+      "p_value": 0.0
+    },
+    "Jarque_Bera": {
+      "statistic": 23672.503043745408,
+      "p_value": 0.0
+    }
+  },
+  "effect_sizes": {
+    "epsilon_sq_ks": 0.038874061385601406,
+    "cohen_w_sw": 2.295080037595187
+  }
+}
