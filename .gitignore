@@ -25,6 +25,8 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+# Prevent model files from being committed
+*.joblib
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
