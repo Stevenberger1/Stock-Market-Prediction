@@ -1,6 +1,0 @@
-#This file lists all dependencies (external libraries) your project needs.
- #It allows others to install everything with a single command.
-
- #pip install -r requirements.txt
-
-pandas
