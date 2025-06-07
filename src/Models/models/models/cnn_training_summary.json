@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-06-07T20:53:09Z",
+  "window_size": 36,
+  "n_features": 19,
+  "train_windows": 12648,
+  "val_windows": 3135,
+  "metrics": {
+    "accuracy": 0.5087719298245614,
+    "precision": 0.5235551238465275,
+    "recall": 0.6585216860109957,
+    "weighted_f1_a2": 0.6064129008063004,
+    "auc": 0.5114396063005613
+  },
+  "hyperparameters": {
+    "filters": 64,
+    "kernel": 2,
+    "activation": "relu",
+    "dropout": 0.186,
+    "dense_units": 64,
+    "conv_blocks": 1,
+    "pool": "gmp",
+    "extra_dense": true,
+    "lr": 0.00021,
+    "batch": 32,
+    "l2_reg": 1e-06
+  },
+  "confusion_matrix": [
+    [
+      517,
+      981
+    ],
+    [
+      559,
+      1078
+    ]
+  ]
+}
