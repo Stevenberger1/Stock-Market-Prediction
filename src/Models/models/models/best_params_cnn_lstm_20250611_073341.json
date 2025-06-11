@@ -1,0 +1,17 @@
+{
+  "arch": "lstm_conv",
+  "window": 24,
+  "filters": 64,
+  "kernel": 5,
+  "units": 32,
+  "conv_drop": 0.22038243416690304,
+  "lstm_drop": 0.2851431170292216,
+  "dense": 32,
+  "dropout": 0.3780691110846929,
+  "l2": 1.4487475596560194e-06,
+  "lr": 0.0013478527861028075,
+  "batch": 32,
+  "act": "relu",
+  "pool": "gmp",
+  "conv_blocks": 1
+}
